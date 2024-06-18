@@ -24,11 +24,6 @@ public class ProcessManager : MonoBehaviour
     public int LastQuestion = 0;
     public int CurrentQuestion = 0;
 
-    // path to bgm file? not sure how unity handles bgm function so this may change accrodingly
-    public List<string> AvailableBgms = new();
-    public List<string> SelectedBgms = new();
-    public string CurrentBgm = "";
-
     // test result
     public Dictionary<Dimension, int> Result = new();
     // answer to each question; range from 1 to 5 (totally disagree -> totally agree)
